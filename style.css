@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+
+}
+#nav-bar
+{
+position: sticky;
+top:0;
+z-index: 9999;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#00ff99,#99ffcc);
+    padding: 0;
+
+}
+.navbar-brand
+{
+    height:40px;
+    padding-left: 20px;
+    color:black;
+    font-weight: 600;
+
+}
+.navbar-nav{
+	padding: 0 10px;
+
+}
+.navbar-nav li a{
+	color: black;
+	font-weight: 600;
+	float:right;
+	text-align: left;
+}
+.fa-bars
+{
+color: black;
+font-size:30px;
+}
+.navbar-toggler
+{
+	outline: none;
+}
+/*-------------------------------------------Banner-------------------------------------*/
+#banner
+{
+	display: inline-block;
+	overflow: hidden;
+	background-image: white;
+	color: black;
+	justify-content: space-around;
+	padding-top: 5%;
+}
+.promo-tile{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+	padding-top: 10%;
+
+}
+.promo-tile1
+{
+	text-align: center;
+	font-weight: 600;
+	font-size: 40px;
+	margin:auto;
+}
+.img-responsive{
+	display: flex;
+	height:auto;
+	background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    position:sticky;
+}
+/******************************* services******************************/
+#services{
+ max-width: 100%;
+}
+.text{
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 2%;
+}
+.media-body{
+	background-color: #00ff99;
+}
+.media{
+	border:1px solid black;
+	background-image: #00ff99;
+}
+
+.mt-0{
+	font-size:25px;
+}
+.link{
+	display: flex
+	justify-content:  center;
+	text-align:center;
+	background-color:black;
+	color: #fff;
+}
+.btn{
+	color: white;
+	border:1px solid white;
+}
+/*----------------------------------about us***********/
+.about{
+
+	text-align: center
+}
+.about-txt{
+    text-align: left;
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+	padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+.contact-us{
+	text-align: center;
+	background-color: black;
+	color: #fff;
+}
